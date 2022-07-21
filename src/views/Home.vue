@@ -47,7 +47,7 @@ export default {
 
       // .post("/api/sendmailwmsg",formData)
       axios
-        .post("http://localhost:7072/api/sendmailwmsg",formData)
+        .post("http://vue-email.azurewebsites.net/api/sendmailwmsg",formData)
         .then((response) => {console.log(response)})
     }
   }
